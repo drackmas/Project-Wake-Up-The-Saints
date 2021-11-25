@@ -56,3 +56,4 @@ Icon
 # php composer-setup.php
 # php -r "unlink('composer-setup.php');"
 composer.phar
+composer.lock
