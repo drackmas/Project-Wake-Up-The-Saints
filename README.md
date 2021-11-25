@@ -12,6 +12,9 @@ Kirby - https://getkirby.com/
 Composer - https://getcomposer.org/download/
 >  A Dependency Manager for PHP. 
 
+Bootstrap - https://getbootstrap.com
+> Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. 
+
 kirby-markdown-field - https://github.com/fabianmichael/kirby-markdown-field
 > Enhanced markdown editor for Kirby 3, community built.
 
