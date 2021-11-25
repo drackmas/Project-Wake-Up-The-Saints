@@ -253,6 +253,51 @@
             "install-path": "../getkirby/composer-installer"
         },
         {
+            "name": "k-community/markdown-field",
+            "version": "1.0.9",
+            "version_normalized": "1.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
+                "reference": "7b1c13e6e45ffdb8b9e2f436378f5ba93507b1dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/7b1c13e6e45ffdb8b9e2f436378f5ba93507b1dc",
+                "reference": "7b1c13e6e45ffdb8b9e2f436378f5ba93507b1dc",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "time": "2021-01-06T16:19:33+00:00",
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "markdown-field"
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                },
+                {
+                    "name": "Fabian Michael",
+                    "email": "hallo@fabianmichael.de"
+                }
+            ],
+            "description": "Enhanced markdown editor for Kirby 3",
+            "support": {
+                "issues": "https://github.com/sylvainjule/kirby-markdown-field/issues",
+                "source": "https://github.com/sylvainjule/kirby-markdown-field/tree/1.0.9"
+            },
+            "install-path": "../../site/plugins/markdown-field"
+        },
+        {
             "name": "laminas/laminas-escaper",
             "version": "2.9.0",
             "version_normalized": "2.9.0.0",
