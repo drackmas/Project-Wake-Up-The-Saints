@@ -2,6 +2,7 @@
 
 return [
   'panel' =>[
-    'install' => true
+    #'install' => true
+    'slug' => 'admin'
   ]
 ];
