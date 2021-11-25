@@ -6,4 +6,5 @@ To even run this on a registered domain you will need to pay for a license to us
 [getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
 
 # This Project Uses
+Kirby - https://getkirby.com/
 Composer - https://getcomposer.org/download/
