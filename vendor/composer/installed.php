@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd38cb6e824890ec374098a9590b8631108cda087',
+        'reference' => '37fc46dd337ef898e52566721ff1cd874e3c050d',
         'name' => 'getkirby/plainkit',
         'dev' => true,
     ),
@@ -52,7 +52,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd38cb6e824890ec374098a9590b8631108cda087',
+            'reference' => '37fc46dd337ef898e52566721ff1cd874e3c050d',
             'dev_requirement' => false,
         ),
         'jg/kirby-fields-block' => array(
@@ -106,6 +106,15 @@
             'reference' => '47d17c90a4dfd0ccf1f87e25c65e6c8012415aad',
             'dev_requirement' => false,
         ),
+        'mnsami/composer-custom-directory-installer' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../mnsami/composer-custom-directory-installer',
+            'aliases' => array(),
+            'reference' => '85f66323978d0b1cb0e6acc7f69b3e7b912f82d9',
+            'dev_requirement' => false,
+        ),
         'mustangostang/spyc' => array(
             'pretty_version' => '0.6.3',
             'version' => '0.6.3.0',
@@ -150,6 +159,21 @@
             'aliases' => array(),
             'reference' => 'a4d0c11a36dd7f4e7cd7096076cab6d3378a071e',
             'dev_requirement' => false,
+        ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => 'v5.1.3',
+            'version' => '5.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../assets/bootstrap',
+            'aliases' => array(),
+            'reference' => '1a6fdfae6be09b09eaced8f0e442ca6f7680a61e',
+            'dev_requirement' => false,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => 'v5.1.3',
+            ),
         ),
     ),
 );

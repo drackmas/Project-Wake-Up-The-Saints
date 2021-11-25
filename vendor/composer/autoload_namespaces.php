@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'claviska' => array($vendorDir . '/claviska/simpleimage/src'),
     'Michelf' => array($vendorDir . '/michelf/php-smartypants'),
+    'Composer\\CustomDirectoryInstaller' => array($vendorDir . '/mnsami/composer-custom-directory-installer/src'),
 );

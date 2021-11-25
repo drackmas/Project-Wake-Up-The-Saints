@@ -6,6 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Composer\\CustomDirectoryInstaller\\LibraryInstaller' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/LibraryInstaller.php',
+    'Composer\\CustomDirectoryInstaller\\LibraryPlugin' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/LibraryPlugin.php',
+    'Composer\\CustomDirectoryInstaller\\PackageUtils' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PackageUtils.php',
+    'Composer\\CustomDirectoryInstaller\\PearInstaller' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PearInstaller.php',
+    'Composer\\CustomDirectoryInstaller\\PearPlugin' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PearPlugin.php',
+    'Composer\\CustomDirectoryInstaller\\PluginInstaller' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PluginInstaller.php',
+    'Composer\\CustomDirectoryInstaller\\PluginPlugin' => $vendorDir . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PluginPlugin.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Kirby\\Api\\Api' => $baseDir . '/kirby/src/Api/Api.php',
     'Kirby\\Api\\Collection' => $baseDir . '/kirby/src/Api/Collection.php',

@@ -92,9 +92,23 @@ class ComposerStaticInitcce8e5afece969837b9f3e123fec8f47
                 0 => __DIR__ . '/..' . '/michelf/php-smartypants',
             ),
         ),
+        'C' => 
+        array (
+            'Composer\\CustomDirectoryInstaller' => 
+            array (
+                0 => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
+        'Composer\\CustomDirectoryInstaller\\LibraryInstaller' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/LibraryInstaller.php',
+        'Composer\\CustomDirectoryInstaller\\LibraryPlugin' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/LibraryPlugin.php',
+        'Composer\\CustomDirectoryInstaller\\PackageUtils' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PackageUtils.php',
+        'Composer\\CustomDirectoryInstaller\\PearInstaller' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PearInstaller.php',
+        'Composer\\CustomDirectoryInstaller\\PearPlugin' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PearPlugin.php',
+        'Composer\\CustomDirectoryInstaller\\PluginInstaller' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PluginInstaller.php',
+        'Composer\\CustomDirectoryInstaller\\PluginPlugin' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PluginPlugin.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Kirby\\Api\\Api' => __DIR__ . '/../..' . '/kirby/src/Api/Api.php',
         'Kirby\\Api\\Collection' => __DIR__ . '/../..' . '/kirby/src/Api/Collection.php',

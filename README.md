@@ -20,3 +20,6 @@ kirby-markdown-field - https://github.com/fabianmichael/kirby-markdown-field
 
 Kirby Fields Block - https://github.com/jongacnik/kirby-fields-block
 > Kirby block preview plugin to directly render block fields, allowing for inline editing.
+
+composer-custom-directory-installer - https://github.com/mnsami/composer-custom-directory-installer
+> A composer plugin, to install differenty types of composer packages in custom directories outside the default composer default installation path which is in the vendor folder.
