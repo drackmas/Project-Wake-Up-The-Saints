@@ -253,6 +253,44 @@
             "install-path": "../getkirby/composer-installer"
         },
         {
+            "name": "jg/kirby-fields-block",
+            "version": "v1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jongacnik/kirby-fields-block.git",
+                "reference": "2c99a2952698fed91d42f18253942ac9f87a2d1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jongacnik/kirby-fields-block/zipball/2c99a2952698fed91d42f18253942ac9f87a2d1d",
+                "reference": "2c99a2952698fed91d42f18253942ac9f87a2d1d",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "time": "2021-06-03T00:38:40+00:00",
+            "type": "kirby-plugin",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Gacnik",
+                    "email": "jon@folderstudio.com"
+                }
+            ],
+            "description": "Kirby Fields Block",
+            "support": {
+                "issues": "https://github.com/jongacnik/kirby-fields-block/issues",
+                "source": "https://github.com/jongacnik/kirby-fields-block/tree/v1.1.0"
+            },
+            "install-path": "../../site/plugins/kirby-fields-block"
+        },
+        {
             "name": "k-community/markdown-field",
             "version": "1.0.9",
             "version_normalized": "1.0.9.0",

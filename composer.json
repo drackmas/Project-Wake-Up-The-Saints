@@ -24,7 +24,8 @@
   "require": {
     "php": ">=7.4.0 <8.1.0",
     "getkirby/cms": "^3.6",
-    "k-community/markdown-field": "^1.0"
+    "k-community/markdown-field": "^1.0",
+    "jg/kirby-fields-block": "^1.1"
   },
   "scripts": {
     "start": [
