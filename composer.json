@@ -26,8 +26,7 @@
     "getkirby/cms": "^3.6",
     "k-community/markdown-field": "^1.0",
     "jg/kirby-fields-block": "^1.1",
-    "mnsami/composer-custom-directory-installer": "^2.0",
-    "twbs/bootstrap": "*"
+    "mnsami/composer-custom-directory-installer": "^2.0"
   },
   "extra":{
    "installer-paths":{

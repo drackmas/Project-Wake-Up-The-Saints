@@ -32,6 +32,15 @@ Icon
 /site/cache/*
 !/site/cache/index.html
 
+# Src for tailwind
+#----------------
+/src/*
+
+# Node modules
+# ---------------
+/node_modules/*
+
+
 # Accounts
 # ---------------
 

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '37fc46dd337ef898e52566721ff1cd874e3c050d',
+        'reference' => 'bda10eba856bf6a57cee27286e7dd96677678947',
         'name' => 'getkirby/plainkit',
         'dev' => true,
     ),
@@ -52,7 +52,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '37fc46dd337ef898e52566721ff1cd874e3c050d',
+            'reference' => 'bda10eba856bf6a57cee27286e7dd96677678947',
             'dev_requirement' => false,
         ),
         'jg/kirby-fields-block' => array(
@@ -159,21 +159,6 @@
             'aliases' => array(),
             'reference' => 'a4d0c11a36dd7f4e7cd7096076cab6d3378a071e',
             'dev_requirement' => false,
-        ),
-        'twbs/bootstrap' => array(
-            'pretty_version' => 'v5.1.3',
-            'version' => '5.1.3.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../assets/bootstrap',
-            'aliases' => array(),
-            'reference' => '1a6fdfae6be09b09eaced8f0e442ca6f7680a61e',
-            'dev_requirement' => false,
-        ),
-        'twitter/bootstrap' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => 'v5.1.3',
-            ),
         ),
     ),
 );

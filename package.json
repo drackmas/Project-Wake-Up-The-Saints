@@ -1,0 +1,10 @@
+{
+    "name": "projectname",
+    "scripts": {
+        "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./assets/css/styles.css --jit --purge './site/**/*.php' -w",
+        "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./assets/css/styles.css --jit --purge './site/**/*.php' -m"
+    },
+    "dependencies": {
+        "tailwindcss": "^2.2.19"
+    }
+}
